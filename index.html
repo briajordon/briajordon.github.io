@@ -192,7 +192,6 @@
 	</div>
       </div>
 </section>
-
 <!-- Skills and Experience Section -->
 <section id="experience" class="success">
       <div class="container">
@@ -213,7 +212,6 @@
         </div>
       </div>
     </li>
-
     <li class="timeline-inverted">
       <div class="timeline-badge danger"><i class="fa fa-briefcase" aria-hidden="true"></i>
 </div>
@@ -242,7 +240,6 @@
         </div>
       </div>
     </li>
-
 </ul>
 	</div>
 </section>
@@ -256,11 +253,11 @@
           <div class="col-lg-8 mx-auto">
             <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
             <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
-            <form name="sentMessage" id="contactForm" novalidate>
+            <form id="gform" method="POST" action="https://script.google.com/macros/s/AKfycbxmOdV7tY7n9DaFyTZLRE454sOKDLZsowPUDN6wbYB9Lpn8C7yx/exec" >
               <div class="control-group">
                 <div class="form-group floating-label-form-group controls">
                   <label>Name</label>
-                  <input class="form-control" id="name" type="text" placeholder="Name" required data-validation-required-message="Please enter your name.">
+                  <input class="form-control" id="name" type="text" placeholder="Name" required data-validation-required-message="Please enter your name.>
                   <p class="help-block text-danger"></p>
                 </div>
               </div>
@@ -288,7 +285,7 @@
               <br>
               <div id="success"></div>
               <div class="form-group">
-                <button type="submit" class="btn btn-success btn-lg" id="sendMessageButton">Send</button>
+                <button type="submit" class="btn btn-success btn-lg">Send</button>
               </div>
             </form>
           </div>
@@ -312,12 +309,12 @@
               <h3>Around the Web</h3>
               <ul class="list-inline">
                 <li class="list-inline-item">
-                  <a class="btn-social btn-outline" href="https://twitter.com/purebotg">
+                  <a class="btn-social btn-outline" href="#">
                     <i class="fa fa-fw fa-twitter"></i>
                   </a>
                 </li>
                 <li class="list-inline-item">
-                  <a class="btn-social btn-outline" href="https://www.linkedin.com/in/briajordon/">
+                  <a class="btn-social btn-outline" href="#">
                     <i class="fa fa-fw fa-linkedin"></i>
                   </a>
                 </li>
@@ -348,7 +345,7 @@
       </a>
     </div>
 
-    <!-- Portfolio Modals -->
+      <!-- Portfolio Modals -->
     <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
@@ -608,6 +605,25 @@
     <!-- Custom scripts for this template -->
     <script src="js/freelancer.min.js"></script>
 
+	<!-- Start of StatCounter Code for Default Guide -->
+<script type="text/javascript">
+var sc_project=11468780; 
+var sc_invisible=1; 
+var sc_security="1dd53727"; 
+var scJsHost = (("https:" == document.location.protocol) ?
+"https://secure." : "http://www.");
+document.write("<sc"+"ript type='text/javascript' src='" +
+scJsHost+
+"statcounter.com/counter/counter.js'></"+"script>");
+</script>
+<noscript><div class="statcounter"><a title="Web Analytics
+Made Easy - StatCounter" href="http://statcounter.com/"
+target="_blank"><img class="statcounter"
+src="//c.statcounter.com/11468780/0/1dd53727/1/" alt="Web
+Analytics Made Easy - StatCounter"></a></div></noscript>
+<!-- End of StatCounter Code for Default Guide -->
   </body>
+<script data-cfasync="false" type="text/javascript"
+ 	src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
 
 </html>
